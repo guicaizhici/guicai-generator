@@ -20,10 +20,10 @@ public class StaticGenerator {
     public static void main(String[] args) {
         // 获取整个项目的根路径
         String projectPath = System.getProperty("user.dir");
-        //File parentFile = new File(projectPath).getParentFile();
+        File parentFile = new File(projectPath).getParentFile();
         // 输入路径：ACM 示例代码模板目录
-        // String inputPath = new File(parentFile, "guicai-generator-demo-project/acm-template").getAbsolutePath();
-        String inputPath = projectPath + File.separator + "guicai-generator-demo-project" + File.separator + "acm-template";
+        String inputPath = new File(parentFile, "guicai-generator-demo-project/acm-template").getAbsolutePath();
+       // String inputPath = projectPath + File.separator + "guicai-generator-demo-project" + File.separator + "acm-template";
         //System.out.println(inputPath);
         // 输出路径：直接输出到项目的根目录
         String outputPath = projectPath;

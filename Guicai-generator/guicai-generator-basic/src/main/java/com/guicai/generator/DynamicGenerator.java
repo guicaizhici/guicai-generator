@@ -18,7 +18,7 @@ public class DynamicGenerator {
 
     public static void main(String[] args) throws IOException, TemplateException {
         String projectPath = System.getProperty("user.dir");
-        String inputPath = projectPath + File.separator + "guicai-generator-basic/src/main/resources/templates/MainTemplate.java.ftl";
+        String inputPath = projectPath + File.separator + "src/main/resources/templates/MainTemplate.java.ftl";
         String outputPath = projectPath + File.separator + "MainTemplate.java";
         MainTemplateConfig mainTemplateConfig = new MainTemplateConfig();
         mainTemplateConfig.setAuthor("guicai");
