@@ -6,8 +6,9 @@
   "author": "guicai",
   "createTime": "2023-11-22",
   "fileConfig": {
-    "inputRootPath": "F:/Java-Project/generator/Guicai-generator/guicai-generator-demo-project/acm-template-pro",
+    "inputRootPath": ".source/acm-template-pro",
     "outputRootPath": "generated",
+    "sourceRootPath": "F:/Java-Project/generator/Guicai-generator/guicai-generator-demo-project/acm-template-pro",
     "type": "dir",
     "files": [
       {
