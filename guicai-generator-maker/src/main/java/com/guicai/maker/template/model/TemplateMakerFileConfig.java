@@ -22,6 +22,8 @@ public class TemplateMakerFileConfig {
 
         private String path;
 
+        private String condition;
+
         private List<FileFilterConfig> filterConfigList;
     }
 

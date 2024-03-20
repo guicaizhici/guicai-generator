@@ -24,7 +24,7 @@ public class FileGenerator {
         // 整个项目的根路径
         File parentFile = new File(projectPath).getParentFile();
         // 输入路径
-        String inputPath = new File(parentFile, "guicai-generator-demo-projects/acm-template").getAbsolutePath();
+        String inputPath = new File(parentFile, "guicai-generator-demo-project/acm-template").getAbsolutePath();
         String outputPath = projectPath;
         // 生成静态文件
         StaticFileGenerator.copyFilesByHutool(inputPath, outputPath);
