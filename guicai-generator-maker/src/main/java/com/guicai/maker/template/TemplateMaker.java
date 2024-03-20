@@ -13,6 +13,7 @@ import com.guicai.maker.meta.enums.FileTypeEnum;
 import com.guicai.maker.template.enums.FileFilterRangeEnum;
 import com.guicai.maker.template.enums.FileFilterRuleEnum;
 import com.guicai.maker.template.model.FileFilterConfig;
+import com.guicai.maker.template.model.TemplateMakerConfig;
 import com.guicai.maker.template.model.TemplateMakerFileConfig;
 import com.guicai.maker.template.model.TemplateMakerModelConfig;
 
@@ -22,6 +23,22 @@ import java.util.*;
 import java.util.stream.Collectors;
 
 public class TemplateMaker {
+
+    /**
+     * 制作模板
+     *
+     * @param templateMakerConfig
+     * @return
+     */
+    public static long makeTemplate(TemplateMakerConfig templateMakerConfig) {
+        Meta meta = templateMakerConfig.getMeta();
+        String originProjectPath = templateMakerConfig.getOriginProjectPath();
+        TemplateMakerFileConfig templateMakerFileConfig = templateMakerConfig.getFileConfig();
+        TemplateMakerModelConfig templateMakerModelConfig = templateMakerConfig.getModelConfig();
+        Long id = templateMakerConfig.getId();
+
+        return makeTemplate(meta, originProjectPath, templateMakerFileConfig, templateMakerModelConfig, id);
+    }
 
     /**
      * 制作模板

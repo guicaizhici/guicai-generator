@@ -1,6 +1,9 @@
 package com.guicai.maker.template;
 
+import cn.hutool.core.io.resource.ResourceUtil;
+import cn.hutool.json.JSONUtil;
 import com.guicai.maker.meta.Meta;
+import com.guicai.maker.template.model.TemplateMakerConfig;
 import com.guicai.maker.template.model.TemplateMakerFileConfig;
 import com.guicai.maker.template.model.TemplateMakerModelConfig;
 import org.junit.Test;
@@ -85,6 +88,18 @@ public class TemplateMakerTest {
         templateMakerModelConfig.setModels(modelInfoConfigList);
 
         long id = TemplateMaker.makeTemplate(meta, originProjectPath, templateMakerFileConfig, templateMakerModelConfig, 1735281524670181376L);
+        System.out.println(id);
+    }
+
+
+    /**
+     * 使用 JSON 制作模板
+     */
+    @Test
+    public void testMakeTemplateWithJSON() {
+        String configStr = ResourceUtil.readUtf8Str("templateMaker.json");
+        TemplateMakerConfig templateMakerConfig = JSONUtil.toBean(configStr, TemplateMakerConfig.class);
+        long id = TemplateMaker.makeTemplate(templateMakerConfig);
         System.out.println(id);
     }
 }
