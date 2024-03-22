@@ -46,8 +46,8 @@ public class GenerateCommand implements Callable<Integer> {
     public Integer call() throws Exception {
         if (loop) {
             System.out.println("输入核心模板配置：");
-            CommandLine commandLine = new CommandLine(MainTemplateCommand.class);
-            commandLine.execute("--author", "--outputText");
+            CommandLine mainTemplateCommandLine = new CommandLine(MainTemplateCommand.class);
+            mainTemplateCommandLine.execute("--author", "--outputText");
         }
         DataModel dataModel = new DataModel();
         BeanUtil.copyProperties(this, dataModel);

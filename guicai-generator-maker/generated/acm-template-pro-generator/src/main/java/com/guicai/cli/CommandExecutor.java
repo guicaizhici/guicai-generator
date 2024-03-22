@@ -1,6 +1,7 @@
 package com.guicai.cli;
 
 import com.guicai.cli.command.GenerateCommand;
+import com.guicai.cli.command.JsonGenerateCommand;
 import com.guicai.cli.command.ListCommand;
 import com.guicai.cli.command.ConfigCommand;
 import picocli.CommandLine;
@@ -18,7 +19,8 @@ public class CommandExecutor implements Runnable {
         commandLine = new CommandLine(this)
                 .addSubcommand(new GenerateCommand())
                 .addSubcommand(new ConfigCommand())
-                .addSubcommand(new ListCommand());
+                .addSubcommand(new ListCommand())
+                .addSubcommand(new JsonGenerateCommand());
     }
 
     @Override

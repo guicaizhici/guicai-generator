@@ -1,0 +1,24 @@
+{
+    "name": "acm-template-generator",
+    "description": "ACM 示例模板生成器",
+    "fileConfig": {
+        "sourceRootPath": "F:/Java-Project/generator/Guicai-generator/guicai-generator-demo-project/acm-template",
+        "files": [
+            {
+                "inputPath": "src/com/guicai/acm/MainTemplate.java",
+                "outputPath": "src/com/guicai/acm/MainTemplate.java.ftl",
+                "type": "file",
+                "generateType": "dynamic"
+            }
+        ]
+    },
+    "modelConfig": {
+        "models": [
+            {
+                "fieldName": "outputText",
+                "type": "String",
+                "defaultValue": "sum = "
+            }
+        ]
+    }
+}
