@@ -1,4 +1,6 @@
-import { listGeneratorVoByPageUsingPost } from '@/services/backend/generatorController';
+import {
+  listGeneratorVoByPageFastUsingPost
+} from '@/services/backend/generatorController';
 import { UserOutlined } from '@ant-design/icons';
 import { PageContainer, ProFormSelect, ProFormText, QueryFilter } from '@ant-design/pro-components';
 import { Link } from '@umijs/max';
@@ -35,7 +37,7 @@ const IndexPage: React.FC = () => {
   const doSearch = async () => {
     setLoading(true);
     try {
-      const res = await listGeneratorVoByPageUsingPost(searchParams);
+      const res = await listGeneratorVoByPageFastUsingPost(searchParams);
       setDataList(res.data?.records ?? []);
       setTotal(Number(res.data?.total) ?? 0);
     } catch (error: any) {
