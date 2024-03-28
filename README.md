@@ -1,7 +1,6 @@
 # 鬼才 - 代码生成器共享平台
 
 > 作者：雷电影
->
 
 
 
@@ -11,13 +10,13 @@
 
 在线体验： [鬼才代码生成](http://159.75.102.144/) 
 
-![1711588508275](C:\Users\Lenovo\AppData\Roaming\Typora\typora-user-images\1711588508275.png)
+![1](https://guicai-1310088046.cos.ap-guangzhou.myqcloud.com/image%2F1711588508275.png)
 
 
 
 ## 项目设计图
 
-![1711588579712](C:\Users\Lenovo\AppData\Roaming\Typora\typora-user-images\1711588579712.png)
+![1711588579712](https://guicai-1310088046.cos.ap-guangzhou.myqcloud.com/image%2F1711588579712.png)
 
 
 
@@ -25,27 +24,27 @@
 
 主页（代码生成器搜索列表）：
 
-![1711588632581](C:\Users\Lenovo\AppData\Roaming\Typora\typora-user-images\1711588632581.png)
+![1711588632581](https://guicai-1310088046.cos.ap-guangzhou.myqcloud.com/image%2F1711588632581.png)
 
 代码生成器创建页（分步表单）：
 
-![1711588847474](C:\Users\Lenovo\AppData\Roaming\Typora\typora-user-images\1711588847474.png)
+![1711588847474](https://guicai-1310088046.cos.ap-guangzhou.myqcloud.com/image%2F1711588847474.png)
 
 代码生成器创建页（复杂嵌套动态表单）：
 
-![1711588876830](C:\Users\Lenovo\AppData\Roaming\Typora\typora-user-images\1711588876830.png)
+![1711588876830](https://guicai-1310088046.cos.ap-guangzhou.myqcloud.com/image%2F1711588876830.png)
 
 在线上传和制作代码生成器：
 
-![1711588912826](C:\Users\Lenovo\AppData\Roaming\Typora\typora-user-images\1711588912826.png)
+![1711588912826](https://guicai-1310088046.cos.ap-guangzhou.myqcloud.com/image%2F1711588912826.png)
 
 代码生成器详情页：
 
-![1711588945994](C:\Users\Lenovo\AppData\Roaming\Typora\typora-user-images\1711588945994.png)
+![1711588945994](https://guicai-1310088046.cos.ap-guangzhou.myqcloud.com/image%2F1711588945994.png)
 
 在线使用代码生成器：
 
-![1711588966004](C:\Users\Lenovo\AppData\Roaming\Typora\typora-user-images\1711588966004.png)
+![1711588966004](https://guicai-1310088046.cos.ap-guangzhou.myqcloud.com/image%2F1711588966004.png)
 
 ### 技术选型（全栈项目）
 
@@ -54,10 +53,10 @@
 - React 18 开发框架
 - Ant Design Pro 脚手架
 - Ant Design 组件库
--  Ant Design Procomponents 高级组件
+- Ant Design Procomponents 高级组件
 - OpenAPI 代码生成
 - 前端工程化：ESLint + Prettier + TypeScript
--  前端通用文件上传下载
+- 前端通用文件上传下载
 
 
 
@@ -67,7 +66,7 @@
 - MySQL 数据库
 - MyBatis-Plus 及 MyBatis X 自动生成
 - Maven 自动打包
--  Picocli Java 命令行应用开发
+- Picocli Java 命令行应用开发
 - FreeMarker 模板引擎
 - Caffeine + Redis 多级缓存
 - XXL-JOB 分布式任务调度系统
