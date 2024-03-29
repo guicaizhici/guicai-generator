@@ -8,10 +8,9 @@
     <img src="https://img.shields.io/badge/MySQL-8.0.20-orange.svg" alt="MySQL">
     <img src="https://img.shields.io/badge/Java-1.8.0-blue.svg" alt="Java">
     <img src="https://img.shields.io/badge/Redis-5.0.14-red.svg" alt="Redis">
-    <img src="https://img.shields.io/badge/RabbitMQ-5.17.0-orange.svg" alt="RabbitMQ">
     <img src="https://img.shields.io/badge/MyBatis--Plus-3.5.2-blue.svg" alt="MyBatis-Plus">
     <img src="https://img.shields.io/badge/Redisson-3.21.3-yellow.svg" alt="Redisson">
-        <img src="https://img.shields.io/badge/vertx_core-4.5.1-orange.svg" alt="vertx-core">
+     <img src="https://img.shields.io/badge/vertx_core-4.5.1-orange.svg" alt="vertx-core">
     <img src="https://img.shields.io/badge/caffeine-2.9.3-red.svg" alt="caffeine">
     <img src="https://img.shields.io/badge/Hutool-5.8.8-green.svg" alt="Hutool">
     <img src="https://img.shields.io/badge/caffeine-2.9.3-blue.svg" alt="MyBatis-Plus">
