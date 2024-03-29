@@ -14,7 +14,7 @@
     <img src="https://img.shields.io/badge/caffeine-2.9.3-red.svg" alt="caffeine">
     <img src="https://img.shields.io/badge/Hutool-5.8.8-green.svg" alt="Hutool">
     <img src="https://img.shields.io/badge/caffeine-2.9.3-blue.svg" alt="MyBatis-Plus">
-    <img src="https://img.shields.io/badge/guicai_generator_maker-4.5.1-orange.svg" alt="guicai-generator-maker">
+    <img src="https://img.shields.io/badge/guicai_generator_maker-1.0.0-orange.svg" alt="guicai-generator-maker">
     <img src="https://img.shields.io/badge/MyBatis-2.2.2-yellow.svg" alt="MyBatis">
 </a>
 </p>
