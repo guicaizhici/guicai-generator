@@ -22,7 +22,7 @@
 
 # 鬼才 - 代码生成器共享平台
 
-> 作者： 🌟  [鬼才之刺]( [guicaizhici (鬼才之刺) (github.com)](https://github.com/guicaizhici) )
+> 作者： 🌟  [鬼才之刺](https://github.com/guicaizhici)
 >
 > 在线体验： [鬼才代码生成](http://159.75.102.144/) 
 
