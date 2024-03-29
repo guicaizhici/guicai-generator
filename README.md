@@ -1,14 +1,34 @@
+<p align="center">
+<img src="https://guicai-1310088046.cos.ap-guangzhou.myqcloud.com/image%2F%E9%AC%BC%E8%84%B8.png" alt="image-20230623213937364" style="zoom:50%;" align="center" />
+</p>
+
+<p align="center">
+<a>
+    <img src="https://img.shields.io/badge/Spring Boot-2.7.2-brightgreen.svg" alt="Spring Boot">
+    <img src="https://img.shields.io/badge/MySQL-8.0.20-orange.svg" alt="MySQL">
+    <img src="https://img.shields.io/badge/Java-1.8.0-blue.svg" alt="Java">
+    <img src="https://img.shields.io/badge/Redis-5.0.14-red.svg" alt="Redis">
+    <img src="https://img.shields.io/badge/RabbitMQ-5.17.0-orange.svg" alt="RabbitMQ">
+    <img src="https://img.shields.io/badge/MyBatis--Plus-3.5.2-blue.svg" alt="MyBatis-Plus">
+    <img src="https://img.shields.io/badge/Redisson-3.21.3-yellow.svg" alt="Redisson">
+        <img src="https://img.shields.io/badge/vertx_core-4.5.1-orange.svg" alt="vertx-core">
+    <img src="https://img.shields.io/badge/caffeine-2.9.3-red.svg" alt="caffeine">
+    <img src="https://img.shields.io/badge/Hutool-5.8.8-green.svg" alt="Hutool">
+    <img src="https://img.shields.io/badge/caffeine-2.9.3-blue.svg" alt="MyBatis-Plus">
+    <img src="https://img.shields.io/badge/guicai_generator_maker-4.5.1-orange.svg" alt="guicai-generator-maker">
+    <img src="https://img.shields.io/badge/MyBatis-2.2.2-yellow.svg" alt="MyBatis">
+</a>
+</p>
+
 # 鬼才 - 代码生成器共享平台
 
-> 作者：雷电影
+> 作者： 🌟  [鬼才之刺]( [guicaizhici (鬼才之刺) (github.com)](https://github.com/guicaizhici) )
+>
+> 在线体验： [鬼才代码生成](http://159.75.102.144/) 
 
 
 
-深入业务场景的企业级硬项目，基于 React + Spring Boot + Picocli + 对象存储的 **代码生成器共享平台** 。
-
-开发者可以在平台上制作并发布代码生成器，用户可以搜索、下载、在线使用代码生成器，管理员可以集中管理所有用户和生成器。
-
-在线体验： [鬼才代码生成](http://159.75.102.144/) 
+深入业务场景的企业级硬项目，基于 React + Spring Boot + Picocli + 对象存储的 **代码生成器共享平台** 。开发者可以在平台上制作并发布代码生成器，用户可以搜索、下载、在线使用代码生成器，管理员可以集中管理所有用户和生成器。
 
 ![1](https://guicai-1310088046.cos.ap-guangzhou.myqcloud.com/image%2F1711588508275.png)
 
@@ -53,10 +73,10 @@
 - React 18 开发框架
 - Ant Design Pro 脚手架
 - Ant Design 组件库
-- Ant Design Procomponents 高级组件
+-  Ant Design Procomponents 高级组件
 - OpenAPI 代码生成
 - 前端工程化：ESLint + Prettier + TypeScript
-- 前端通用文件上传下载
+-  前端通用文件上传下载
 
 
 
@@ -66,7 +86,7 @@
 - MySQL 数据库
 - MyBatis-Plus 及 MyBatis X 自动生成
 - Maven 自动打包
-- Picocli Java 命令行应用开发
+-  Picocli Java 命令行应用开发
 - FreeMarker 模板引擎
 - Caffeine + Redis 多级缓存
 - XXL-JOB 分布式任务调度系统
@@ -90,3 +110,31 @@
 - 轻量应用服务器
 - 宝塔 Linux 面板
 - Nginx 反向代理
+
+# 快速启动
+
+## 后端
+
+按照applicationg.yml配置自己的环境即可， 执行sql目录下ddl.sql 
+
+## 前端
+
+环境要求：Node.js >= 18
+
+安装依赖：
+
+```
+yarn or  npm install
+```
+
+启动：
+
+```
+yarn run dev or npm run start:dev
+```
+
+部署：
+
+```
+yarn build or npm run build
+```
