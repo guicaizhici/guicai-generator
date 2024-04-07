@@ -1,4 +1,4 @@
-# 线上配置文件
+# 线上配置文件，部署上线另开一个文件
 # @author <a href="https://github.com/guicaizhici">鬼才之刺</a>
 # @from <a href="https://github.com/guicaizhici">鬼才之刺</a>
 server:
